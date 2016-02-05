@@ -1,0 +1,1 @@
+while read -r line; do wc -l $line | awk -F" " '{print $2","$1}'; done < allJavaFiles.txt  

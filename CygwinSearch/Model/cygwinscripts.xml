@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CygwinModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<commands>
+  <!--Create Commands-->
+  <ScriptCommand>
+    <name>createFiles</name>
+  </ScriptCommand> 
+  <!--Find commands-->
+<ScriptCommand>
+<name>findInProperties</name>
+<parameters>
+ <ScriptParameter>
+	<name>Module Name</name>
+	<required>1</required>
+	<includeQuotes>0</includeQuotes>
+</ScriptParameter>
+<ScriptParameter>
+	<name>Search String</name>
+	<required>1</required>
+	<includeQuotes>1</includeQuotes>
+ </ScriptParameter>
+ </parameters>
+</ScriptCommand>
+<ScriptCommand>
+<name>findInJSP</name>
+<parameters>
+ <ScriptParameter>
+	<name>Module Name</name>
+	<required>1</required>
+	<includeQuotes>0</includeQuotes>
+ </ScriptParameter>
+  <ScriptParameter>
+	<name>Search String</name>
+	<required>1</required>
+	<includeQuotes>1</includeQuotes>
+ </ScriptParameter>
+ </parameters>
+</ScriptCommand>
+<ScriptCommand>
+<name>findInErrorMessages</name>
+<parameters>
+ <ScriptParameter>
+	<name>Module Name</name>
+	<required>1</required>
+	<includeQuotes>0</includeQuotes>
+ </ScriptParameter>
+  <ScriptParameter>
+	<name>Search String</name>
+	<required>1</required>
+	<includeQuotes>1</includeQuotes>
+ </ScriptParameter>
+ </parameters>
+</ScriptCommand>
+<ScriptCommand>
+<name>findInJava</name>
+<parameters>
+ <ScriptParameter>
+	<name>Module Name</name>
+	<required>1</required>
+	<includeQuotes>0</includeQuotes>
+ </ScriptParameter>
+  <ScriptParameter>
+	<name>Search String</name>
+	<required>1</required>
+	<includeQuotes>1</includeQuotes>
+ </ScriptParameter>
+ </parameters>
+</ScriptCommand>
+<ScriptCommand>
+<name>findService</name>
+<parameters>
+ <ScriptParameter>
+	<name>Module Name</name>
+	<required>1</required>
+	<includeQuotes>0</includeQuotes>
+ </ScriptParameter>
+  <ScriptParameter>
+	<name>Search String</name>
+	<required>1</required>
+	<includeQuotes>1</includeQuotes>
+ </ScriptParameter>
+ </parameters>
+</ScriptCommand>
+<ScriptCommand>
+<name>findInHTML5</name>
+<parameters>
+ <ScriptParameter>
+	<name>Module Name</name>
+	<required>1</required>
+	<includeQuotes>0</includeQuotes>
+ </ScriptParameter>
+  <ScriptParameter>
+	<name>Search String</name>
+	<required>1</required>
+	<includeQuotes>1</includeQuotes>
+ </ScriptParameter>
+ </parameters>
+</ScriptCommand>
+<ScriptCommand>
+<name>findInJS</name>
+<parameters>
+ <ScriptParameter>
+	<name>Module Name</name>
+	<required>1</required>
+	<includeQuotes>0</includeQuotes>
+ </ScriptParameter>
+  <ScriptParameter>
+	<name>Search String</name>
+	<required>1</required>
+	<includeQuotes>1</includeQuotes>
+ </ScriptParameter>
+ </parameters>
+</ScriptCommand>
+<ScriptCommand>
+<name>findInRestAPI</name>
+<parameters>
+ <ScriptParameter>
+	<name>Module Name</name>
+	<required>1</required>
+	<includeQuotes>0</includeQuotes>
+ </ScriptParameter>
+  <ScriptParameter>
+	<name>Search String</name>
+	<required>1</required>
+	<includeQuotes>1</includeQuotes>
+ </ScriptParameter>
+ </parameters>
+</ScriptCommand>
+  <!--Displaycommands-->
+<ScriptCommand>
+<name>displayDelegateMethods</name>
+<parameters>
+ <ScriptParameter>
+	<name>Path Name</name>
+	<required>1</required>
+	<includeQuotes>0</includeQuotes>
+ </ScriptParameter>
+ </parameters>
+</ScriptCommand>
+<ScriptCommand>
+<name>displayEJBMethods</name>
+<parameters>
+ <ScriptParameter>
+	<name>Path Name</name>
+	<required>1</required>
+	<includeQuotes>0</includeQuotes>
+ </ScriptParameter>
+ 
+</parameters>
+</ScriptCommand>
+<ScriptCommand>
+<name>displayDAOMethods</name>
+<parameters>
+ <ScriptParameter>
+	<name>Path Name</name>
+	<required>1</required>
+	<includeQuotes>0</includeQuotes>
+ </ScriptParameter>
+</parameters>
+</ScriptCommand>
+<ScriptCommand>
+<name>displayRestAPIMethods</name>
+  <parameters>
+    <ScriptParameter>
+      <name>Path Name</name>
+      <required>1</required>
+      <includeQuotes>0</includeQuotes>
+    </ScriptParameter>
+  </parameters> 
+</ScriptCommand>
+  
+</commands>
+</CygwinModel>
